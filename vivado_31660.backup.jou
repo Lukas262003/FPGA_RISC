@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Nov 13 08:43:50 2024
+# Process ID: 31660
+# Current directory: C:/RISC_FPGA_PROJEKT
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26796 C:\RISC_FPGA_PROJEKT\RISC_FPGA_PROJEKT.xpr
+# Log file: C:/RISC_FPGA_PROJEKT/vivado.log
+# Journal file: C:/RISC_FPGA_PROJEKT\vivado.jou
+# Running On        :LAPTOP-B848L9I8
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+# CPU Frequency     :2592 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :17083 MB
+# Swap memory       :4563 MB
+# Total Virtual     :21646 MB
+# Available Virtual :12007 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/RISC_FPGA_PROJEKT/RISC_FPGA_PROJEKT.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source ALU_tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top RegisterFile_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+close_sim
