@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../RISC_FPGA_PROJEKT.srcs/sources_1/new/Register_File.vhd" \
-"../../../../RISC_FPGA_PROJEKT.srcs/sim_1/new/Register_File_Testbench.vhd" \
-
-# Do not sort compile order
-nosort
