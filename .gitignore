@@ -1,0 +1,10 @@
+# Ignoriere Vivado-Arbeitsordner
+*.runs/
+*.srcs/
+*.sim/
+*.vivado/
+*.ipcache/
+
+# Ignoriere temporäre Dateien
+*.log
+*.jou
